@@ -4,8 +4,8 @@ import { dumpObject } from './util';
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { encode, decode } from 'cbor';
 import { TextColorFileName, SettingsFileName } from '../common/constants'
-import { taskSVT } from './VitrualTables/TaskStreamingVirtualTable'
-import { taskFoldersSVT } from './VitrualTables/TaskFoldersStreamingVirtualTable'
+import { taskSVT } from './VirtualTables/TaskStreamingVirtualTable'
+import { taskFoldersSVT } from './VirtualTables/TaskFoldersStreamingVirtualTable'
 import { taskFolderDataStreamer, taskDataStreamer } from "./DataStreamer";
 
 export class Screen

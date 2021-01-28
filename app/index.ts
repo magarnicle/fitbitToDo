@@ -10,8 +10,8 @@ import { dumpObject } from './util';
 import { DeviceFileNames, TaskFolderCollectionId } from '../common/constants'
 import { NetworkEventHandler } from './FileIO'
 import { CollectionRequest } from "../common/Collection"
-import { taskSVT } from './VitrualTables/TaskStreamingVirtualTable';
-import { taskFoldersSVT } from './VitrualTables/TaskFoldersStreamingVirtualTable';
+import { taskSVT } from './VirtualTables/TaskStreamingVirtualTable';
+import { taskFoldersSVT } from './VirtualTables/TaskFoldersStreamingVirtualTable';
 
 // Set up settings
 
