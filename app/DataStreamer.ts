@@ -167,7 +167,7 @@ export class DataStreamer <Item extends CollectionItem, DataCollection extends C
 
     /**
      * Gets display collection length
-     * mainly used by the streaming virtual table to react to changes in the datastreamer eg. the user turned of show completed tasks
+     * mainly used by the streaming virtual table to react to changes in the datastreamer eg. the user turned off show completed tasks
      */
     public GetDisplayCollectionLength(): number
     {
